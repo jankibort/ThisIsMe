@@ -15,7 +15,7 @@ const Inspirations = () => {
       <Container className="col-12 text-center mt-5">
         <h1 className="text-dark pt-5">Inspirations</h1>
         <div className="border-top border-secondary w-25 mx-auto my-3"></div>
-        <p className="lead container">Those fenomenal twin brothers</p>
+        <p className="lead container">Les Twins are</p>
       </Container>
       <Container>
         <Row className="pb-3">
