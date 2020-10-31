@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap");
+//globals
+html {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+//topbar
+#top-bar {
+  height: 2.9rem;
+  color: whitesmoke;
+  font-size: 1.1rem;
+
+  .container {
+    padding: 0.5rem 0;
+  }
+}
+
+//navbar
+.navbar {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1500;
+
+  .navbar-brand {
+    cursor: pointer;
+  }
+
+  .nav-item {
+    padding: 0 0.5rem;
+    color: #5b5555 !important;
+
+    a {
+      cursor: pointer;
+      font-weight: 600;
+
+      &:hover {
+        text-decoration: none;
+      }
+
+      &.active {
+        color: #85499c !important;
+        border-bottom: 1px solid #d7dbdf !important;
+      }
+    }
+  }
+}
+
+.fixed-background {
+  position: relative;
+  width: 100%;
+  z-index: 1000 !important;
+  &#top-bar {
+    padding: 0;
+  }
+  padding: 4rem 0;
+  .fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999 !important;
+  }
+}
+.fixed {
+  // background-image: url("/img/background.jpg");
+  background-image: url("./img/matterhorn.jpg");
+  z-index: -999 !important;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+  position: fixed;
+}
+
+.special-card {
+  // opacity: 0.4;s
+  background-color: rgba(245, 245, 245, 0.9);
+
+  img {
+    display: block;
+    max-width: 230px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+    opacity: 1 !important;
+  }
+
+  div {
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+}
+
+.footer {
+  color: #a89e9e !important;
+
+  a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #918a8a !important;
+
+    &.active,
+    &:hover {
+      font-weight: 600;
+      color: #7d7777 !important;
+    }
+  }
+}
+
+#inspirations,
+#passion {
+  background-color: rgba(245, 245, 245, 0.98);
+}
+
+// .fade-appear {
+//   opacity: 0;
+// }
+
+// .fade-appear.fade-appear-active {
+//   opacity: 1;
+//   transition: opacity 500ms linear;
+// }
+
+.enter {
+  opacity: 0;
+  z-index: 100;
+}
+
+.enter.enter-active {
+  opacity: 1;
+  transition: opacity 600ms linear 300ms;
+}
+
+.exit {
+  opacity: 1;
+}
+
+.exit.exit-active {
+  opacity: 0;
+  transition: opacity 300ms linear;
+}
+
+.exit-done {
+  opacity: 0;
+}
+
+.enter-done {
+  opacity: 1;
+}
