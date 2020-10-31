@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/ThisIsMe/static/css/main.96dcc209.chunk.css",
+    "main.js": "/ThisIsMe/static/js/main.1bd4f051.chunk.js",
+    "main.js.map": "/ThisIsMe/static/js/main.1bd4f051.chunk.js.map",
+    "runtime-main.js": "/ThisIsMe/static/js/runtime-main.d3733e3b.js",
+    "runtime-main.js.map": "/ThisIsMe/static/js/runtime-main.d3733e3b.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/ThisIsMe/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.7322f4bf.chunk.js": "/ThisIsMe/static/js/2.7322f4bf.chunk.js",
+    "static/js/2.7322f4bf.chunk.js.map": "/ThisIsMe/static/js/2.7322f4bf.chunk.js.map",
+    "index.html": "/ThisIsMe/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/ThisIsMe/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.96dcc209.chunk.css.map": "/ThisIsMe/static/css/main.96dcc209.chunk.css.map",
+    "static/js/2.7322f4bf.chunk.js.LICENSE.txt": "/ThisIsMe/static/js/2.7322f4bf.chunk.js.LICENSE.txt",
+    "static/media/anyoneofus.bbed08b8.jpg": "/ThisIsMe/static/media/anyoneofus.bbed08b8.jpg",
+    "static/media/chasingadvanture.b5e228de.jpg": "/ThisIsMe/static/media/chasingadvanture.b5e228de.jpg",
+    "static/media/fabio.1dea7ac8.jpg": "/ThisIsMe/static/media/fabio.1dea7ac8.jpg",
+    "static/media/josh.f6936f37.jpg": "/ThisIsMe/static/media/josh.f6936f37.jpg",
+    "static/media/lestwins.310e0f0c.jpg": "/ThisIsMe/static/media/lestwins.310e0f0c.jpg",
+    "static/media/styles.scss": "/ThisIsMe/static/media/matterhorn.a0f92b35.jpg",
+    "static/media/me.e77f705c.jpg": "/ThisIsMe/static/media/me.e77f705c.jpg",
+    "static/media/paul.4b0f2184.jpg": "/ThisIsMe/static/media/paul.4b0f2184.jpg",
+    "static/media/song1.54614a0f.jpg": "/ThisIsMe/static/media/song1.54614a0f.jpg",
+    "static/media/song2.1d370971.jpg": "/ThisIsMe/static/media/song2.1d370971.jpg",
+    "static/media/song3.3528c030.jpg": "/ThisIsMe/static/media/song3.3528c030.jpg",
+    "static/media/song4.ca0bdb5a.jpg": "/ThisIsMe/static/media/song4.ca0bdb5a.jpg",
+    "static/media/song5.c26cda91.jpg": "/ThisIsMe/static/media/song5.c26cda91.jpg",
+    "static/media/song6.4fb76657.jpg": "/ThisIsMe/static/media/song6.4fb76657.jpg",
+    "static/media/song7.ae287ad0.jpg": "/ThisIsMe/static/media/song7.ae287ad0.jpg",
+    "static/media/song8.44b355da.jpg": "/ThisIsMe/static/media/song8.44b355da.jpg",
+    "static/media/thatsitthatsall.d211f5ca.jpg": "/ThisIsMe/static/media/thatsitthatsall.d211f5ca.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3733e3b.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.7322f4bf.chunk.js",
+    "static/css/main.96dcc209.chunk.css",
+    "static/js/main.1bd4f051.chunk.js"
+  ]
+}
