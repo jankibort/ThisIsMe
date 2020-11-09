@@ -21,13 +21,15 @@ class Music extends React.Component {
 
   render() {
     const active = this.state.active;
+
     return (
       <Col xs={12} lg={6}>
         <h3 className="text-dark text-center my-5">
           <FontAwesomeIcon icon={faPlayCircle} /> Music
         </h3>
+
         <Row>
-          <Col xs={6}>
+          <Col xs={12} sm={6} className="pb-3">
             <Carousel
               onSelect={(key) => {
                 this.setState({ active: key });
@@ -60,7 +62,7 @@ class Music extends React.Component {
               </Carousel.Item>
             </Carousel>
           </Col>
-          <Col xs={6} className="pl-0">
+          <Col xs={12} sm={6}>
             <div className="pb-4 mb-2">
               <span className="text-dark font-weight-bold">Artist: </span>
               <TransitionGroup className="position-relative">
@@ -95,6 +97,7 @@ class Music extends React.Component {
               <a
                 target="_blank"
                 className="btn text-danger p-0"
+                rel="noreferrer"
                 href={data.songs[active].url}
               >
                 <FontAwesomeIcon icon={faYoutube} /> Play in YouTube

@@ -46,7 +46,7 @@ const ResponsiveNavbar = () => {
                 to="goals"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-50}
                 duration={500}
               >
                 Goals
@@ -60,7 +60,7 @@ const ResponsiveNavbar = () => {
                 to="footer"
                 spy={true}
                 smooth={true}
-                offset={-370}
+                offset={-900}
                 duration={500}
               >
                 Contact Me

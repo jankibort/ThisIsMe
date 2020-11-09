@@ -5,7 +5,7 @@ import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
-    <Card className="footer bg-dark text-white">
+    <div className="footer bg-dark text-white">
       <Container className="text-center p-3">
         <Card.Title>Contact me</Card.Title>
         <Card.Text>
@@ -21,7 +21,7 @@ const Footer = () => {
           </span>
         </Card.Text>
       </Container>
-    </Card>
+    </div>
   );
 };
 
