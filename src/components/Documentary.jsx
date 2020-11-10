@@ -37,6 +37,7 @@ class Documentary extends Component {
               <CSSTransition key={active} timeout={900}>
                 <span className="position-absolute text-justify">
                   {data.movies[active].description}
+                  <br />
                   <a
                     target="_blank"
                     className="btn film-link p-0"

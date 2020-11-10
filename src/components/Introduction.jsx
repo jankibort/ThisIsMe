@@ -2,7 +2,6 @@ import React from "react";
 import Intro from "./Intro";
 import Inspirations from "./Inspirations";
 import Goals from "./Goals";
-// import {} from 'react-bootstrap';
 
 const Introduction = () => {
   return (

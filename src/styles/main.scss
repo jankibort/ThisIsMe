@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap");
-@import "../node_modules/font-awesome/css/font-awesome.min.css";
+// @import "../node_modules/font-awesome/css/font-awesome.min.css";
 
 //globals
 html {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
-  font-size: 0.94rem;
+  font-size: 0.96rem;
 }
 
 //topbar
@@ -18,9 +18,12 @@ html {
     padding: 0.5rem 0;
   }
 }
-#inspirations,
-#goals {
+#inspirations {
   padding-top: 4rem;
+}
+
+#goals {
+  padding: 4rem 0;
 }
 
 //navbar
@@ -82,7 +85,7 @@ html {
 }
 .fixed {
   // background-image: url("/img/background.jpg");
-  background-image: url("./img/matterhorn.jpg");
+  background-image: url("../img/matterhorn.jpg");
   z-index: -999 !important;
   display: block;
   top: 0;

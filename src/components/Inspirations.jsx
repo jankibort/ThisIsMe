@@ -25,7 +25,7 @@ class Inspirations extends Component {
         <Container className="col-12 text-center">
           <h1 className="text-dark">Inspirations</h1>
           <div className="border-top border-secondary w-25 mx-auto my-3"></div>
-          <p className="lead container pb-2">
+          <p className="lead container pb-3">
             We all find inspirations in life that change our course and drive
             what we do. They let us discover our limits and give us strength to
             go beyond them. They allow us to see the yet unseen dimensions of
@@ -123,7 +123,6 @@ class Inspirations extends Component {
                 myself to work things out.
               </p>
             </Col>
-            <p className="lead mt-3 mb-0"></p>
             <Music />
             <Documentary />
           </Row>

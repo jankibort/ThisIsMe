@@ -3,6 +3,7 @@ import Topbar from "./components/Topbar";
 import ResponsiveNavbar from "./components/ResponsiveNavbar";
 import Introduction from "./components/Introduction";
 import Footer from "./components/Footer";
+import "./styles/main.scss";
 
 function App() {
   return (
