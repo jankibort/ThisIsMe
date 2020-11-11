@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Topbar from "./components/Topbar";
 import ResponsiveNavbar from "./components/ResponsiveNavbar";
-import Introduction from "./components/Introduction";
+import About from "./components/About";
 import Footer from "./components/Footer";
 import "./styles/main.scss";
 
@@ -10,7 +10,7 @@ function App() {
     <div>
       <Topbar />
       <ResponsiveNavbar />
-      <Introduction />
+      <About />
       <Footer />
     </div>
   );

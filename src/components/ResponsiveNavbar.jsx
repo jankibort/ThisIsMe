@@ -8,7 +8,7 @@ const ResponsiveNavbar = () => {
       <Container>
         <Navbar.Brand>
           <Link activeClass="active" to="top-bar" smooth={true} duration={500}>
-            Section list:
+            About Me:
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

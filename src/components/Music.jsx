@@ -23,7 +23,7 @@ class Music extends React.Component {
     const active = this.state.active;
 
     return (
-      <Col xs={12} lg={6}>
+      <Col xs={12} xl={6}>
         <h3 className="text-dark text-center my-5">
           <FontAwesomeIcon icon={faPlayCircle} /> Music
         </h3>

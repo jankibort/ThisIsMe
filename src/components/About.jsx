@@ -3,7 +3,7 @@ import Intro from "./Intro";
 import Inspirations from "./Inspirations";
 import Goals from "./Goals";
 
-const Introduction = () => {
+const About = () => {
   return (
     <div className="fixed-background">
       <Intro />
@@ -19,4 +19,4 @@ const Introduction = () => {
   );
 };
 
-export default Introduction;
+export default About;

@@ -8,6 +8,10 @@ html {
   font-size: 0.96rem;
 }
 
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
 //topbar
 #top-bar {
   height: 2.9rem;
@@ -38,6 +42,12 @@ html {
 
   .navbar-brand {
     cursor: pointer;
+    font-weight: 700;
+    color: #85499c;
+
+    &:hover {
+      color: #85499c;
+    }
   }
 
   .nav-item {

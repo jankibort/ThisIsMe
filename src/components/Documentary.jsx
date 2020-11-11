@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Carousel, Col, Row } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFilm, faPhotoVideo } from "@fortawesome/free-solid-svg-icons";
+import { faFilm } from "@fortawesome/free-solid-svg-icons";
 import film1 from "../img/movies/thatsitthatsall.jpg";
 import film2 from "../img/movies/chasingadvanture.jpg";
 import film3 from "../img/movies/anyoneofus.jpg";
@@ -17,7 +17,7 @@ class Documentary extends Component {
     const active = this.state.active;
 
     return (
-      <Col xs={12} lg={6}>
+      <Col xs={12} xl={6}>
         <h3 className="text-center text-dark my-5">
           Documentaries <FontAwesomeIcon icon={faFilm} />{" "}
         </h3>

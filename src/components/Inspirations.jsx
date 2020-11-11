@@ -7,19 +7,12 @@ import paul from "../img/inspirations/paul.jpg";
 import josh from "../img/inspirations/josh.jpg";
 import Documentary from "./Documentary";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { CSSTransition, TransitionGroup } from "react-transition-group";
+import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 // import Authority from "./Authority";
 
 class Inspirations extends Component {
-  state = {
-    active: false,
-  };
-
   render() {
-    const active = this.state.active;
-
     return (
       <div id="inspirations">
         <Container className="col-12 text-center">
