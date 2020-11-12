@@ -73,10 +73,8 @@ class ResponsiveNavbar extends Component {
                   offset={-260}
                   duration={500}
                 >
-                  Contact Me
+                  Contact
                 </Link>
-
-                {/* <Nav.Link href="#footer">Contacts</Nav.Link> */}
               </Nav.Item>
             </Nav>
           </Navbar.Collapse>

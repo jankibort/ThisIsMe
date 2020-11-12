@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="footer bg-dark text-white">
       <Container className="text-center p-4">
-        <Card.Title>Contact me</Card.Title>
+        <Card.Title>Contact</Card.Title>
         <Card.Text>
           <span className="d-block pb-2">
             <a href="tel: +48505373578">
