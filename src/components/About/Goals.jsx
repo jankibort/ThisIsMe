@@ -95,7 +95,7 @@ const Goals = () => {
           Creating intuitive web pages and mobile apps is both my job and
           passion with this fully responsive web page being an example of my
           work. There are many other projects I published on GitHub. You can
-          also read about my experience in
+          also read about my experience in{" "}
           <a className="cv-link p-0" href={CV} download="KibortJanCV.pdf">
             my CV
           </a>{" "}
