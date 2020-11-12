@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import { Carousel, Col, Row } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilm } from "@fortawesome/free-solid-svg-icons";
-import film1 from "../img/movies/thatsitthatsall.jpg";
-import film2 from "../img/movies/chasingadvanture.jpg";
-import film3 from "../img/movies/anyoneofus.jpg";
-import data from "../data";
+import film1 from "../../img/movies/thatsitthatsall.jpg";
+import film2 from "../../img/movies/chasingadvanture.jpg";
+import film3 from "../../img/movies/anyoneofus.jpg";
+import data from "../../data";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 class Documentary extends Component {

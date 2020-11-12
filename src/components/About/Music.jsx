@@ -1,17 +1,17 @@
 import React from "react";
 import { Carousel, Col, Row } from "react-bootstrap";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
-import song1 from "../img/music/song1.jpg";
-import song2 from "../img/music/song2.jpg";
-import song3 from "../img/music/song3.jpg";
-import song4 from "../img/music/song4.jpg";
-import song5 from "../img/music/song5.jpg";
-import song6 from "../img/music/song6.jpg";
-import song7 from "../img/music/song7.jpg";
-import song8 from "../img/music/song8.jpg";
+import song1 from "../../img/music/song1.jpg";
+import song2 from "../../img/music/song2.jpg";
+import song3 from "../../img/music/song3.jpg";
+import song4 from "../../img/music/song4.jpg";
+import song5 from "../../img/music/song5.jpg";
+import song6 from "../../img/music/song6.jpg";
+import song7 from "../../img/music/song7.jpg";
+import song8 from "../../img/music/song8.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlayCircle } from "@fortawesome/free-solid-svg-icons";
-import data from "../data";
+import data from "../../data";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 class Music extends React.Component {

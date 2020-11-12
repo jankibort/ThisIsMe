@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Container, Col, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
 import Music from "./Music";
-import lestwins from "../img/inspirations/lestwins.jpg";
-import fabio from "../img/inspirations/fabio.jpg";
-import paul from "../img/inspirations/paul.jpg";
-import josh from "../img/inspirations/josh.jpg";
+import lestwins from "../../img/inspirations/lestwins.jpg";
+import fabio from "../../img/inspirations/fabio.jpg";
+import paul from "../../img/inspirations/paul.jpg";
+import josh from "../../img/inspirations/josh.jpg";
 import Documentary from "./Documentary";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";

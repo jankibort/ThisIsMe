@@ -23,11 +23,11 @@ html {
   }
 }
 #inspirations {
-  padding-top: 4rem;
+  padding: 4rem 0;
 }
 
 #goals {
-  padding: 4rem 0;
+  padding: 3.7rem 0;
 }
 
 //navbar
@@ -242,4 +242,13 @@ html {
 .film-link {
   font-weight: 500;
   margin-top: 0.5rem;
+}
+
+.cv-link {
+  font-weight: 600;
+  color: #212529;
+  &:hover {
+    text-decoration: none;
+    color: #212529;
+  }
 }
