@@ -47,8 +47,6 @@ class ResponsiveNavbar extends Component {
                 >
                   Inspirations
                 </Link>
-
-                {/* <Nav.Link href="#inspirations">Inspirations</Nav.Link> */}
               </Nav.Item>
               <Nav.Item className="smooth-scroll">
                 <Link
@@ -61,8 +59,6 @@ class ResponsiveNavbar extends Component {
                 >
                   Goals
                 </Link>
-
-                {/* <Nav.Link href="#passion">Goals</Nav.Link> */}
               </Nav.Item>
               <Nav.Item className="smooth-scroll">
                 <Link
