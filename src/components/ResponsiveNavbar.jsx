@@ -42,7 +42,7 @@ class ResponsiveNavbar extends Component {
                   to="inspirations"
                   spy={true}
                   smooth={true}
-                  offset={-54}
+                  offset={-50}
                   duration={500}
                 >
                   Inspirations

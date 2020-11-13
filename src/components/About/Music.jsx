@@ -9,6 +9,7 @@ import song5 from "../../img/music/song5.jpg";
 import song6 from "../../img/music/song6.jpg";
 import song7 from "../../img/music/song7.jpg";
 import song8 from "../../img/music/song8.jpg";
+import song0 from "../../img/music/song0.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlayCircle } from "@fortawesome/free-solid-svg-icons";
 import data from "../../data";
@@ -37,28 +38,31 @@ class Music extends React.Component {
               className="shadow-lg"
             >
               <Carousel.Item>
-                <img className="d-block w-100" src={song8} alt="First slide" />
+                <img className="d-block w-100" src={song8} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="d-block w-100" src={song2} alt="Third slide" />
+                <img className="d-block w-100" src={song2} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="d-block w-100" src={song3} alt="Third slide" />
+                <img className="d-block w-100" src={song3} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="d-block w-100" src={song4} alt="Third slide" />
+                <img className="d-block w-100" src={song4} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="d-block w-100" src={song5} alt="Third slide" />
+                <img className="d-block w-100" src={song5} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="d-block w-100" src={song6} alt="Third slide" />
+                <img className="d-block w-100" src={song6} alt="" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="d-block w-100" src={song7} alt="Third slide" />
+                <img className="d-block w-100" src={song7} alt="" />
               </Carousel.Item>
-              <Carousel.Item artist="Hanson">
-                <img className="d-block w-100" src={song1} alt="First slide" />
+              <Carousel.Item>
+                <img className="d-block w-100" src={song1} alt="" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={song0} alt="" />
               </Carousel.Item>
             </Carousel>
           </Col>
@@ -109,81 +113,5 @@ class Music extends React.Component {
     );
   }
 }
-
-// handleSelect = (index) => {
-//   switch (index) {
-//     case 0:
-//       return (
-//         <Song
-//           artist="Waterstrider"
-//           song="Soundless Sea"
-//           mood="#chill #travel"
-//           url="https://music.youtube.com/watch?v=M-_eJkcoSL4"
-//         />
-//       );
-//     case 1:
-//       return (
-//         <Song
-//           artist="The Seige"
-//           song="Run for Your Life"
-//           mood="#determination #motivation"
-//           url="https://music.youtube.com/watch?v=IC1hMxwbMGg"
-//         />
-//       );
-//     case 2:
-//       return (
-//         <Song
-//           artist="The Jezabels"
-//           song="Long Highway"
-//           mood="#chill #travel"
-//           url="https://music.youtube.com/watch?v=6KzKr7kSTB4"
-//         />
-//       );
-//     case 3:
-//       return (
-//         <Song
-//           artist="Epica"
-//           song="Victims of Contingency"
-//           mood="#ignited"
-//           url="https://music.youtube.com/watch?v=_Dy258TFQPs"
-//         />
-//       );
-//     case 4:
-//       return (
-//         <Song
-//           artist="KR3TURE"
-//           song="Watchi it Grow"
-//           mood="#positive"
-//           url="https://music.youtube.com/watch?v=tgNu0FZEGhA"
-//         />
-//       );
-//     case 5:
-//       return (
-//         <Song
-//           artist="Annie Lennox"
-//           song="Walking on Broken Glass"
-//           mood="#positive"
-//           url="https://music.youtube.com/watch?v=nSN0YysStgY"
-//         />
-//       );
-//     case 6:
-//       return (
-//         <Song
-//           artist="Brian Culbertson"
-//           song="Long Night out"
-//           mood="#positive"
-//           url="https://music.youtube.com/watch?v=Cep3QGDXey8"
-//         />
-//       );
-//     case 7:
-//       return (
-//         <Song
-//           artist="Hanson"
-//           song="Waiting For This"
-//           mood="#positive"
-//           url="https://music.youtube.com/watch?v=auLdivX9KwQ"
-//         />
-//       );
-//   }
 
 export default Music;

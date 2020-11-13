@@ -10,7 +10,7 @@ const Intro = () => {
           <Row>
             <Col xs={12} lg={4} className="d-flex">
               <img
-                className="rounded-circle align-self-center mr-3 mx-auto"
+                className="rounded-circle align-self-center my-3 mx-auto"
                 src={me}
                 alt=""
               />
